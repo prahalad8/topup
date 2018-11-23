@@ -1,7 +1,11 @@
 package org.cap.bean;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class Routetable {
-	
+	@Id
 	private Integer route_id;
 	private String route_path;
 	private Integer no_of_seats_occupied;

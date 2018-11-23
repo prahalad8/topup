@@ -1,9 +1,12 @@
 package org.cap.bean;
 import java.time.LocalDate;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
 
+@Entity
 public class TransactionBean {
-	
+	@Id	
 	private Integer transaction_id;
 	private Integer route_id;
 	private String emp_id;

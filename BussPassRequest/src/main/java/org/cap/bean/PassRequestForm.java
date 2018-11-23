@@ -3,8 +3,11 @@ package org.cap.bean;
 import java.time.LocalDate;
 import java.time.LocalTime;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+@Entity
 public class PassRequestForm {
-
+	@Id
 	private Integer requestId;
 	private String employeeid;
 	private String firstname;

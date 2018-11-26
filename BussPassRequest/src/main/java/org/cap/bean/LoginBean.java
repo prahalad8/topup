@@ -3,6 +3,7 @@ package org.cap.bean;
 public class LoginBean {
 	private String userName;
 	private String userPassword;
+	//hello
 	
 	public LoginBean() {
 		

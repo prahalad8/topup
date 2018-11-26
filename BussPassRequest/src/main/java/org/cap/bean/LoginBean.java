@@ -4,7 +4,7 @@ public class LoginBean {
 	private String userName;
 	private String userPassword;
 	//hello
-	
+	//hw r u
 	public LoginBean() {
 		
 	}
